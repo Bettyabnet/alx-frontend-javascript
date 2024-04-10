@@ -6,5 +6,5 @@ function handleResponseFromAPI(promise) {
     .catch((error) => error)
     .finally(() => console.log('Got a response from the API'));
 }
-export default handleResponseFromAPI;
 
+export default handleResponseFromAPI;
